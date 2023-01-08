@@ -69,6 +69,9 @@ const Header = () => {
               </Nav.Link>
             )}
             {auth ? <Nav.Link onClick={handleLogout}>Logout</Nav.Link> : <></>}
+            <Nav.Link as={Link} to="/about">
+              About
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
