@@ -1,0 +1,27 @@
+.img {
+    display: flex;
+    margin: 0 auto;
+    width: 50px;
+    min-height: 60px;
+    max-height: 60px;
+}
+
+.price {
+    text-align: center;
+    justify-content: center;
+    padding: auto 0;
+}
+
+.no_data {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 12rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.over_stock {
+    color: red;
+    margin-top: 0.5rem;
+}

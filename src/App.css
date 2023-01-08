@@ -1,0 +1,8 @@
+svg {
+    width: 100% !important;
+    margin-top: 8rem;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 4px 1px rgb(178, 177, 177);
+}
